@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ナブカツ用のウェブサイトです。基本的なウェブのフロントエンドの書き方、JavaScriptの書き方を学びます。">
+    <meta name="Keywords" content="ナブカツ,,ポートフォリオ,ウェブサイト,プログラミング,フロントエンド,学習,イトナブ" />
+    <title>ナブカツLab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="site-header">
+        <h1 id="site-logo"><a href="">LOGO</a></h1>
+        <nav>
+            <ul id="nav-menu">
+                <li class="nav-menu-items"><a href="#profile">Profile</a></li>
+                <li class="nav-menu-items"><a href="#works">Works</a></li>
+                <li class="nav-menu-items"><a href="#access">Access</a></li>
+                <li class="nav-menu-items"><a href="#promotion">Promotion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Profile -->
+    <main>
+        <section>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!--問１-->
+                    <div class="swiper-slide"><img src="img/photo1.jpg"></div>
+                    <div class="swiper-slide"><img src="img/photo2.jpg"></div>
+                    <div class="swiper-slide"><img src="img/photo3.jpg"></div>
+                    <div class="swiper-slide"><img src="img/photo4.jpg"></div>
+                </div>
+                <div class="top-title">ナブかつ</div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+            <script src="js/main.js"></script>
+
+            <div class="description-text">
+                <p>ナブカツ用のポートフォリオサイトです。</p>
+                <p>基本的なウェブフロントエンドの学習をします。</p>
+            </div>
+        </section>
+
+        <section>
+            <hr class="rule" id="profile">
+            <h2 class="sub-title">〜 Profile 〜</h2>
+            <!--問２-->
+
+            <div class="profile">
+                <div id="profile-img">
+                    <img src="img/profile.jpg" alt="profile-photo">
+                </div>
+                <div id="profile-text">
+                    <p>よっつ</p>
+                    <p>好きな教科：社会</p>
+                    <p>苦手な教科：英語</p>
+                    <p>部活：サッカー</p>
+                    <p>今はまっているもの：Valorant、Vtuber、</p>
+                    <p>今回の意気込み：みんなが楽しくプログラミングできるように頑張ります！</p>
+
+                </div>
+            </div>
+        </section>
+        <!-- Works -->
+        <section>
+            <hr class="rule" id="works">
+            <h2 class="sub-title">〜 Works 〜</h2>
+            <div class="works">
+                <!--問３-->
+                <div class="work">
+                    <h3 class="work-title">Photo montage</h3>
+                    <img class="work-img" src="img/image1.jpg">
+                    <p>
+                    
+                    </p>
+                </div>
+                <div class="work">
+                    <h3 class="work-title">Programming</h3>
+                    <img class="work-img" src="img/image2.jpg">
+                    <p>
+                    
+                    </p>
+                </div>
+                <div class="work">
+                    <h3 class="work-title">Cuisine</h3>
+                    <img class="work-img" src="img/image3.jpg">
+                    <p>
+                    
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Access -->
+        <section>
+            <hr class="rule" id="access">
+            <h2 class="sub-title">〜 Access 〜</h2>
+            <div class="access">
+                <div id="access-text">
+                    <p id="place-name">石巻市</p>
+                    <p>〒000-1111</p>
+                    <p>宮城県石巻市 0-0</p>
+                    <br>
+                    <p>Tel：<a href="tel:000-1234-5678">000-1234-5678</a></p>
+                    <p>Mail：<a href="mail:info@yokosuka.jp">info@ishinomaki.jp</a></p>
+                    <p>Web：<a href="https://www.city.ishinomaki.lg.jp/index.html">www.city.ishinomaki.miyagi.jp</a></p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d400017.47996094474!2d141.0954105305451!3d38.43831450566402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f89a52c69462c1d%3A0xd247d6a6fe229545!2z5a6u5Z-O55yM55-z5be75biC!5e0!3m2!1sja!2sjp!4v1635496272357!5m2!1sja!2sjp"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <!--Promotion-->
+            <hr class="rule" id="promotion">
+            <h2 class="sub-title">〜 Promotion 〜</h2>
+            <div class="promotion">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AItq4Y7R0fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+        </section>
+    </main>
+    <footer id="site-footer">
+        <p id="copyright"><small>&copy;2021 Itnav</small></p>
+    </footer>
+</body>
+
+</html>
